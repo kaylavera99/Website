@@ -1,0 +1,523 @@
+@media (min-width:992px) {
+  
+   .navbar-collapse.show {
+
+}}
+
+.navbar-brand img {
+    max-height: 70px; /* Adjust as needed */
+    
+    width:240px!important;
+    text-align:center!important;
+    padding-right:15%!important;
+
+
+  }
+
+  .navbar-brand {
+    display:flex!important;
+    justify-content:center!important;
+    align-items:center!important;
+
+  }
+
+.container-fluid {
+  padding-left:15%;
+  
+}
+
+
+.navbar {
+  padding-left:0;
+  padding-right:0;
+  padding:0!important;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+  .navbar-nav {
+    text-align: center;
+    width:50%!important;
+  }
+
+
+  .navbar-nav .nav-item {
+    flex: 1;
+   
+
+  }
+
+h3 {
+  font-size: 20px!important;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.p {
+  font-size:16px!important;
+}
+
+.steps {
+  padding-top:1%;
+  padding-bottom:1%;
+}
+ 
+  .nav-link img  {
+    max-height:60px!important;
+    width:100px;
+  }
+
+  .acclink img {
+    width:60px!important;
+  }
+
+  .acclink img {
+    position: absolute; /* Position the image */
+    top: 50%; /* Move it 50% down from the top */
+    
+    transform: translate(-50%, -50%); /* Center the image */
+  }
+
+
+  .account-bar {
+    padding-right:1%!important;
+    max-width:100px!important;
+    position: relative;
+  }
+
+  
+
+
+
+#navContainer {
+    background-color:#E7E6E6!important;
+    height:100px!important;
+    position:fixed;
+    top:0;
+    z-index:1000;
+    box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+    padding-right:5%!important;
+
+    
+
+    
+
+  }
+
+
+ 
+
+  .nav-link {
+    font-size: 18px!important;
+  }
+
+
+
+.banner-content {
+    display:flex!important;
+    flex-direction:column;
+    align-items:center!important;
+    offset:2!important;
+    height:600px;
+    justify-content:center!important;
+    padding-right:0!important;
+    overflow:hidden!important;
+    text-align:center!important;
+  }
+
+  .banner-content .banner-actions {
+    box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  }
+
+h1{
+  font-size:50px!important;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+
+}
+
+h2 {
+  font-size: 28px!important;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+
+}
+
+button {
+  font-size:20px!important;
+
+}
+
+p{
+  border:2px solid #000000!important;
+
+}
+
+
+button {
+  background-color: #333333;
+    border: none;
+    border-radius: 6px;
+    margin-left: 15px!important;
+    margin-right: 15px!important;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Nunito Sans';
+    width:240px;
+    text-align:center;
+    margin-top:15px!important;
+}
+
+.about-block {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  background-color:lightgrey!important;
+
+
+}
+
+.about-text {
+  flex-direction:column;
+  justify-content:center;
+  flex-wrap:wrap!important;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  padding:3%!important;
+
+
+}
+
+.prototype {
+  text-align:center!important;
+}
+
+.about-block .proto-col {
+  background-color:#666666!important;
+
+
+}
+
+.prototype p {
+  margin-bottom:0!important;
+  margin-top:0!important;
+}
+
+.prototype {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+.how-block {
+  text-align:center!important;
+  padding-bottom:2%!important;
+  background-color:#EEEEEE!important;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+
+}
+
+.how-block h2 {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  padding-top:2%!important;
+
+}
+
+.aboutBtn {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+.container-fluid .banner-row {
+  box-shadow: inset 0 0 0 2px #000000!important; /* inset border with 2px width */
+}
+
+.how-block .col-auto {
+  flex-wrap:wrap!important;
+}
+
+
+
+
+.how-block .col-3 {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  margin-left:1%;
+  margin-right:1%;
+}
+
+
+
+.testimonials {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+  background-color:lightgrey!important;
+}
+
+
+
+
+.testimonials .test-text {
+
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+
+.blockquote, .card-body {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+
+}
+
+.testimonials .col-lg-6 {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+
+
+.testimonials .test-text, .testimonials .about-text {
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.fcta-banner {
+  flex-direction:column;
+  justify-content:center!important;
+  text-align:center!important;
+  
+  
+}
+
+
+.fcta {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+  margin-left:1%;
+  margin-right:1%;
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color:#EEEEEEa8;
+  
+}
+
+#footer-bottom {
+  background-color:#333333!important;
+  color:white!important;
+  margin:0;
+
+
+}
+
+.footer-content {
+  padding-left:5%;
+  padding-right:5%;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+
+.footer-content img {
+  filter: brightness(0) invert(1);
+  max-width:180px;
+  
+  
+  
+}
+
+.footer-brand {
+  justify-content: flex-end;
+}
+
+.footer-content .nav-item, .footer-content .nav-link {
+  color:white!important;
+  text-decoration:underline;
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+
+.footer-content .col-lg-4 {
+  box-shadow: inset 0 0 0 2px #000000; /* inset border with 2px width */
+
+}
+
+.body {
+  overflow-x:hidden!important;
+}
+
+.nav-link {
+  width:50%;
+}
+
+.navbar-nav .nav-item {
+  width:50%;
+}
+
+.navbar-nav-account {
+  display:none;
+}
+
+.nav-item-foot {
+  width:100%!important;
+}
+
+.nav-item .foot .nav-link{
+  width:100%!important;
+}
+
+.testimonials .card {
+  top:20%!important;
+}
+
+/* Media query for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-height: 50px;
+    width: auto;
+    padding-left: 10%;
+  }
+
+  .navbar-nav-account {
+    display:block;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+
+    .navbar-collapse {
+      
+      position: fixed;
+      background-color:red;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #f8f9fa; /* Adjust as needed */
+      width: 70%; /* Adjust the width as needed */
+      z-index: 1000;
+      overflow-y: auto; /* Enable vertical scrolling if needed */
+      
+      transform: translateX(100%);
+      
+    }
+
+    
+  
+    .navbar-collapse.show {
+      transition: transform 9s ease-in-out!important;
+      transform: translateX(0);
+      position:fixed;
+      padding-top:5%!important;
+    }
+    .navbar-collapse.show + .navbar-backdrop {
+      display: block; /* Show backdrop when navbar is open */
+    }
+
+      .navbar-collapse.collapsing {
+        display:none;
+        transform: translateX(100%);
+        transition:ease-in-out!important;
+
+
+        
+      }
+    
+ 
+
+  .navbar-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+    z-index: 999; /* Ensure backdrop is behind navbar but above other content */
+    display: none; /* Initially hidden */
+  }
+  
+#navContainer {
+  padding-right:0!important;
+}
+
+  .account-bar {
+    display: none;
+  }
+
+  .navbar-nav-account {
+    display:flex;
+  }
+
+  .banner-content {
+    padding:0!important;
+  }
+
+  .banner-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-block {
+    padding: 20px!important;
+    background-color:#666666!important;
+  }
+
+  .about-block .proto-col {
+    margin-left:0!important;
+  }
+
+
+
+  .about-block {
+    color:white!important;
+  }
+
+  #steps {
+    flex-wrap:wrap!important;
+  }
+
+  .testimonials {
+    text-align:center!important;
+  }
+
+  .test-text {
+    margin-left:8%;
+  }
+
+  .card {
+    margin-bottom:4%!important;
+
+  }
+
+ .about-text{
+  display:flex!important;
+  text-align:center!important;
+  flex-direction:row!important;
+
+}
+
+.navbar-toggler {
+  width:25%!important;
+}
+
+.nav-item-foot .nav-link {
+  width:100%!important;
+}
+
+
+  .how-block .col-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-brand {
+    justify-content:center!important;
+  }
+
+  .footer-content {
+    text-align:center!important;
+  }
+
+  #footer-bottom {
+    padding-top:5%!important;
+  }
+}
+
