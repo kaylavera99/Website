@@ -4,18 +4,25 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Bootstrap Responsive Navbar Example</title>
-      <link rel="stylesheet" href="css/style.css">
 
-  
+<!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/styles.css">
+
       <!-- Bootstrap CSS -->
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+
       <!-- Font Awesome for icons -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-     
-      </style>
-  </head>
-  <body>
+      <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+      
+
+
+      
+  </head>
+  <body class = "col-lg-12">
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid" id="navContainer">
           <!-- Logo (replace img src with your logo) -->
@@ -30,16 +37,16 @@
           <div class="collapse navbar-collapse justify-content-center " aria-label = "Navigation Bar" id="navbarSupportedContent" role="navigation">
               <ul class="navbar-nav" role = "menu">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#" aria-label = "Link" role = "menu item">Link</a>
+                      <a class="nav-link" href="#" aria-label = "Link" role = "menu item">About Us</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#"aria-label = "Link"role = "menu item">Link</a>
+                      <a class="nav-link" href="#"aria-label = "Link"role = "menu item">How it Works</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#" aria-label = "Link"role = "menu item">Link</a>
+                      <a class="nav-link" href="#" aria-label = "Link"role = "menu item">Testimonials</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#" aria-label = "Link"role = "menu item">Link</a>
+                      <a class="nav-link" href="#" aria-label = "Link"role = "menu item">Contact </a>
                   </li>
                   <li class="nav-item navbar-nav-account">
                     <a class="nav-link account-link" href="#" aria-label = "Link"role = "menu item">Account</a>
@@ -59,20 +66,15 @@
   </nav>
 
 
-  <div class = "container-fluid">
-  <div class = "row banner-row justify-content-center">
-    
-    
-    <div class = "col-lg-12 banner-content">
-        <p>12 Column Banner Block</p>
-        <div class = "wrap-banner">
-        <h2>Bootstrap</h3>
-        <h1>HTML 12-Column Layout</h1>
-        
-        <div class = "row banner-actions justify-content-center">
-            <button type = "button" >Primary Action</button>
-            <button type = "button">Secondary Action</button>
+  <div class = "row banner-row justify-content-center" style = "background-image:url('imgs/ProviderBlock.jpg'); background-size:cover; background-position:center;">
+    <div class = "col-lg-12 banner-content" style = "background-color:rgba(0,0,0,0.6);">
 
+        <div class = "wrap-banner">
+        <h2 style = "color:white;">Inclusive, Present and Fun Eatting</h3>
+        <h1 style = "color:white;">WeEat</h1>     
+        <div class = "row banner-actions justify-content-center">
+            <button type = "button" >Learn More</button>
+            <button type = "button">Contact Us</button>
     </div>
     </div>
 </div>
@@ -83,9 +85,9 @@
     <div class = "col-lg-12">
         <div class = "row">
             <div class = "col-lg-6 d-flex about-text">
-                <h2>About Block</h2>
-                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class = "aboutBtn"><button type = "button">Secondary Action</button></div>
+                <h2>About Us</h2>
+                <p>Here at WeEat, we understand the challenges that individuals with food allergies face every day. Feeling excluded from social gatherings, limited dining options, and constant concern about ingredients can make enjoying meals a daunting task. That's why we're dedicated to creating a solution that empowers individuals with food allergies to feel included and confident in their dining experiences</p>
+                <div class = "aboutBtn"><button type = "button" style = "margin-left:0px!important;">Secondary Action</button></div>
             </div>
 
             <div class = "col-lg-6 proto-col">
@@ -97,32 +99,37 @@
 
   <div class = "row how-block">
     <div class = "col-lg-12 how-text-col">
-    <h2>How It Works Block</h2>
+    <h2 style = "padding-top:1%; padding-bottom:2%;">How It Works</h2>
     <div class = "row all-steps">
     <div class = 'col-lg-12 d-flex justify-content-center'>
     <div class = "row steps justify-content-center">
         <div class = "col-lg-3 col-md-10 col-sm-10">
-            <H3>Step 1</H3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <H3 class = "title-text">Step 1: Create an Account</H3>
+            <hr>
+            <p>Log on to our website, and create your account, selecting your food restrictions, tolerances and dietary needs</p>
         </div>
         <div class = "col-lg-3 col-md-10 col-sm-10">
-            <H3>Step 2</H3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <H3 class = "title-text">Step 2: Search</H3>
+            <hr>
+            <p>In the search bar, type your ZIP code and specify how far away you'd like to search</p>
         </div>
         <div class = "col-lg-3 col-md-10 col-sm-10">
-            <H3>Step 3</H3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div></div>
+            <H3 class = "title-text">Step 3: Save & Eat</H3>
+            <hr>
+            <p>Scroll through your results which consist of custom tailored menus, for you and you only!</p>
+        </div>
     </div>
     </div>
-  </div></div>
+    </div>
+    </div>
+  </div>
 
   <div class = "row">
     <div class = "col-lg-12">
         <div class = "row testimonials">
             <div class = "col-lg-6 col-md-10 col-sm-10 d-flex about-text test-text">
                 <h2>Testimonials Block</h2>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Discover the stories of real people whose lives have been positively impacted by our product. From overcoming food allergies to finding their new favorite restaurants, our customers have experienced firsthand the transformative power of our solution</p>
                 <div class = "aboutBtn"><button type = "button">Secondary Action</button></div>
             </div>
 
@@ -130,33 +137,34 @@
                 <div class="card">
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
-                        <p>A well-known quote, contained in a blockquote element. Another well-known quote, contained in a blockquote element. A well-known quote, contained in a blockquote element. Another well-known quote, contained in a blockquote element  </p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        
+                        <p> "I no longer have to worry about accidental exposure to allergens or feeling excluded from social gatherings. Dining out has become a joyous experience again, filled with delicious meals and memorable moments with friends and family.
+                          I'm truly grateful for your product and the positive impact it has had on my life. Thank you for making the world a more inclusive and allergy-aware place!"</p>
+                        <footer class="blockquote-footer">Kathleen G. <cite title="Source Title">Google</cite></footer>
                       </blockquote>
                     </div>
                   </div>
-        </div>
+            </div>
     </div>
   </div>
 </div>
 
   <div class = "row fcta">
         <div class = "col-lg-12 d-flex justify-content-center fcta-banner">
-            <h3>Subheading</h3>
-            <h1>FCTA</h1>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3>Time to Enjoy</h3>
+            <h1>What are you waiting for?</h1>
+            <p> Join us on our journey to a world where everyone feels included, respected, and empowered to enjoy the simple pleasure of food</p>
             <div class = "aboutBtn"><button type = "button">Secondary Action</button></div>
         </div>
 
   </div>
-  </div>
+
 
   <div class="footer" id = "footer-bottom">
-    <div class = "col-lg-12">
+    
     <footer class="row footer-content">
-  
-
-  
+      <div class = "container col-lg-12">
+        <div class = "row">
       <div class="col-lg-4">
         <h5>Section</h5>
         <ul class="nav flex-column" role = "menu" aria-label = "Footer menu">
@@ -165,21 +173,17 @@
           <li class="nav-item-foot"><a href="#" class="nav-link p-0 text-body-secondary"role = "menu item"  aria-label = "Link"><p>Getting Started</p></a></li>
           <li class="nav-item-foot"><a href="#" class="nav-link p-0 text-body-secondary"role = "menu item"aria-label = "Link" ><p>Testimonials</p></a></li>
           <li class="nav-item-foot"><a href="#" class="nav-link p-0 text-body-secondary"role = "menu item"aria-label = "Link"><p>Contact Us</p></a></li>
-
         </ul>
       </div>
-
       <div class = "col-lg-4 mb-6 col-sm-0 col-md-0"></div>
-  
-  
-
-  
       <div class="col-lg-4 mb-3 mt-3">
         <a href="/" class="d-flex mb-3 link-body-emphasis footer-brand" role = "Footer icon" aria-label = "Logo">
-          <img src="imgs/EatWellLogoResized.png"><use xlink:href="#bootstrap"></use></svg>
+          <img src="imgs/EatWellLogoResized.png"><use xlink:href="#bootstrap"></use>
         </a>
 
       </div>
+    </div>
+    </div>
     </footer>
   </div>
 </div>
@@ -193,3 +197,4 @@
   </html>
   
   
+
