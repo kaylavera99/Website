@@ -1102,7 +1102,7 @@ h2,
 h3,
 a,
 p {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Nunito Sans', sans-serif, 'Urbanist', sans-serif;
 }
 .navbar {
   padding-left: 0;

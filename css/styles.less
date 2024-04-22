@@ -9,6 +9,11 @@
 @secondary-font: 'Urbanist', sans-serif;
 
 
+
+.font-families() {
+  font-family:@primary-font, @secondary-font;
+}
+
 @media (min-width: @navbar-collapse-breakpoint) {
   .navbar-collapse.show {
   }
@@ -44,7 +49,7 @@ p {
 
 
 h1, h2, h3, a, p {
-  font-family:@secondary-font;
+  .font-families();
 }
 
 .navbar {
