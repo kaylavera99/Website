@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Navbar Example</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/inner.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+        <style>
+            .col-lg-6 {
+                display:flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content:center;
+
+
+        
+            }
+
+
+            img {
+                border-radius:200px!important;
+                max-width:500px!important;
+                height:auto!important;
+            }
+
+            .first-block {
+                padding-top:2%!important;
+                background-color:#8e9a50;
+                color:white!important;
+            }
+
+
+            
+        </style>
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navContainer">
+        <!-- Logo (replace img src with your logo) -->
+        <a class="navbar-brand" href="grid.html"><img src="imgs/VerticalLogo.png" alt="Logo"></a>
+
+        <!-- Hamburger Menu Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-label="Account Icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse justify-content-center " aria-label="Navigation Bar"
+            id="navbarSupportedContent" role="navigation">
+            <ul class="navbar-nav" role="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" aria-label="Link" role="menu item">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="getting-started.html" aria-label="Link" role="menu item">How it
+                        Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html" aria-label="Link" role="menu item">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" aria-label="Link" role="menu item">Contact </a>
+                </li>
+                <li class="nav-item navbar-nav-account">
+                    <a class="nav-link account-link" href="grid.html" aria-label="Link" role="menu item">Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Account Button -->
+        <div class="collapse navbar-collapse justify-content-end account-bar" id="">
+            <ul class="navbar-nav account">
+                <li class="account-link">
+                    <a class="acclink" href="grid.html" aria-label="Account Icon" role="menu item"><img
+                            src="imgs/person-circle-outline.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<body class="getStarted">
+    <div class="container-fluid start-page">
+        <div class="row banner-row justify-content-center"
+            style="background-image:url('imgs/pittsburgh-eats-2-2.jpg'); background-size:cover; background-position:center;">
+            <div class="col-lg-12 banner-content" style="background-color:rgba(0,0,0,0.8);">
+                <h1 style="color:white;">Getting Started</h1>
+            </div>
+        </div>
+
+
+
+        <div class = "row cards">
+            <div class = "col-lg-12">
+                <div class = "row justify-content-center pt-0 first-block">
+
+                    <div class = "col-lg-6">
+                    <h2>So How Does It Work?</h2>
+                    <p class = "text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+
+
+
+                    </p></div>
+                    <div class = "col-lg-6 proto-col">
+                        <div class = "prototype"><img src = "imgs/photo1.png" alt = "Image of an app on a cell phone" aria-label = "Image of an app on a cell phone" class = "img-fluid"></div>
+                    </div>
+
+
+
+                </div>
+                
+                
+
+
+
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-lg-6">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top  img-fluid" src = "imgs/redone.png">
+                            <div class = "card-body">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6">
+                        <div class = "row justify-content-center">
+                            <div class = "container-fluid">
+                            <h2>Step 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-lg-6">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top  img-fluid" src = "imgs/redone2.png">
+                            <div class = "card-body">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6">
+                        <div class = "row justify-content-center">
+                            <div class = "container-fluid">
+                            <h2>Step 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-lg-6">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top img-fluid" src = "imgs/redone3.png">
+                            <div class = "card-body">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6">
+                        <div class = "row justify-content-center">
+                            <div class = "container-fluid">
+                            <h2>Step 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+<div class="footer" id="footer-bottom">
+
+    <footer class="row footer-content">
+        <div class="container col-lg-12">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column" role="menu" aria-label="Footer menu">
+                        <li class="nav-item-foot"><a href="/grid.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Home</p>
+                            </a></li>
+                        <li class="nav-item-foot "><a href="/about.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>About Us</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/getting-started.html"
+                                class="nav-link p-0 text-body-secondary" role="menu item" aria-label="Link">
+                                <p>Getting Started</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/testimonials.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Testimonials</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/contact.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Contact Us</p>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-6 col-sm-0 col-md-0"></div>
+                <div class="col-lg-4 mb-3 mt-3">
+                    <a href="/grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
+                        aria-label="Logo">
+                        <img src="imgs/EatWellLogoResized.png">
+                        <use xlink:href="#bootstrap"></use>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>

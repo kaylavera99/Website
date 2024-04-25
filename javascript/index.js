@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     // Close the navbar collapse when clicking on the backdrop
-    const backdrop = document.querySelector('.navbar-backdrop');
-    backdrop.addEventListener('click', function () {
-      closeNavbarCollapse();
-    });
+    //const backdrop = document.querySelector('.navbar-backdrop');
+    //backdrop.addEventListener('click', function () {
+ //     closeNavbarCollapse();
+ //   });
   });
   

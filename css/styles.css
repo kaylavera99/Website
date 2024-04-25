@@ -1083,16 +1083,19 @@
 }
 h1 {
   font-size: 60px !important;
-  font-weight: 400;
+  font-weight: 800!important;
+  font-family: 'Urbanist', sans-serif;
 }
 h2 {
   font-size: 48px;
-  font-weight: 500;
+  font-family: 'Urbanist', sans-serif !important;
+  font-weight: 800!important;
 }
 h3 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: 'Urbanist', sans-serif !important;
 }
 p {
   font-size: 20px !important;
@@ -1125,9 +1128,8 @@ p {
   padding-right: 15% !important;
 }
 .navbar #navContainer {
-  background-color: #e7e6e6 !important;
+  background-color: white !important;
   height: 100px !important;
-  position: fixed;
   top: 0;
   z-index: 1000;
   padding-right: 5% !important;
@@ -1172,7 +1174,7 @@ p {
 .container-fluid {
   padding-left: 15%;
 }
-button {
+.primary-button {
   background-color: #9eab59;
   border: none;
   border-radius: 6px;
@@ -1187,6 +1189,58 @@ button {
   text-align: center;
   margin-top: 15px !important;
   font-size: 20px !important;
+  background-color: #538C88;
+}
+.secondary-button {
+  border: none;
+  border-radius: 6px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: "Nunito Sans";
+  width: 240px;
+  text-align: center;
+  margin-top: 15px !important;
+  font-size: 20px !important;
+  background-color: #9eab59;
+}
+.tertiary-button {
+  background-color: #9eab59;
+  border: none;
+  border-radius: 6px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: "Nunito Sans";
+  width: 240px;
+  text-align: center;
+  margin-top: 15px !important;
+  font-size: 20px !important;
+  background-color: #c8725a;
+}
+.outline-button {
+  background-color: #9eab59;
+  border: none;
+  border-radius: 6px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: "Nunito Sans";
+  width: 240px;
+  text-align: center;
+  margin-top: 15px !important;
+  font-size: 20px !important;
+  background-color: transparent;
+  border: 2px solid white;
 }
 .banner-row .banner-content {
   display: flex !important;
@@ -1203,13 +1257,13 @@ button {
 }
 /* ABOUT BLOCK */
 .about-block {
-  background-color: lightgrey !important;
+  background-color: white !important;
 }
 .about-block .button {
   margin-left: 0px!important;
 }
 .about-block .proto-col {
-  background-color: #538C88 !important;
+  background-color: white !important;
 }
 .about-block .proto-col .prototype {
   text-align: center !important;
@@ -1253,12 +1307,13 @@ button {
 }
 /* TESTIMONIALS */
 .testimonials {
-  background-color: lightgrey !important;
+  background-color: #c8725a !important;
 }
 .testimonials .test-text,
 .testimonials .about-text {
   margin-top: 5%;
   margin-bottom: 5%;
+  color: white!important;
 }
 .testimonials button {
   margin-left: 0px!important;
@@ -1289,7 +1344,7 @@ button {
   color: white !important;
 }
 #footer-bottom .footer-content {
-  background-color: #538C88 !important;
+  background-color: #222222 !important;
   padding-top: 3%;
 }
 #footer-bottom .footer-content img {

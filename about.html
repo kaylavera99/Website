@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Navbar Example</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/inner.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navContainer">
+        <!-- Logo (replace img src with your logo) -->
+        <a class="navbar-brand" href="grid.html"><img src="imgs/VerticalLogo.png" alt="Logo"></a>
+
+        <!-- Hamburger Menu Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-label="Account Icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse justify-content-center " aria-label="Navigation Bar"
+            id="navbarSupportedContent" role="navigation">
+            <ul class="navbar-nav" role="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" aria-label="Link" role="menu item">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="getting-started.html" aria-label="Link" role="menu item">How it
+                        Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html" aria-label="Link" role="menu item">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" aria-label="Link" role="menu item">Contact </a>
+                </li>
+                <li class="nav-item navbar-nav-account">
+                    <a class="nav-link account-link" href="grid.html" aria-label="Link" role="menu item">Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Account Button -->
+        <div class="collapse navbar-collapse justify-content-end account-bar" id="">
+            <ul class="navbar-nav account">
+                <li class="account-link">
+                    <a class="acclink" href="grid.html" aria-label="Account Icon" role="menu item"><img
+                            src="imgs/person-circle-outline.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<body class="about">
+    <div class="container-fluid about-page">
+
+        <div class="row banner-row justify-content-center"
+            style="background-image:url('imgs/pittsburgh-eats-2-2.jpg'); background-size:cover; background-position:center;">
+            <div class="col-lg-12 banner-content" style="background-color:rgba(0,0,0,0.6);">
+                <h2 style="color:white;">About WeEat</h2>
+            </div>
+
+
+        </div>
+
+        <div class="row about-block">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6 d-flex about-text">
+                        <h1>About Us</h1>
+                        <p>Here at WeEat, we understand the challenges that individuals with food allergies face every
+                            day. Feeling excluded from social gatherings, limited dining options, and constant concern
+                            about ingredients can make enjoying meals a daunting task. That's why we're dedicated to
+                            creating a solution that empowers individuals with food allergies to feel included and
+                            confident in their dining experiences</p>
+                        <div class="aboutBtn"><a href = "getting-started.html"><button type="button" class = "primary-button" style="margin-left:0px!important;">Learn More</button></a></div>
+                    </div>
+
+                    <div class="col-lg-6 proto-col">
+                        <div class="prototype"><img src="imgs/shot1.png"
+                                alt="Image of an app on a cell phone" aria-label="Image of an app on a cell phone" class = "img-fluid p-0 mockups">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 test-col">
+                <div class="container-fluid slider-container" style="">
+                    <div class = "row">
+                        <div class = "col-lg-12">
+                            <h3>Hear What Our Users Think!</h3>
+                    <h2>Testimonials</h2>
+                    
+                    <div class = "row justify-content-center">
+                        <div class = "col-lg-8">
+                    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox" style="justify-content:center!important">
+                            <div class="carousel-item active text-center">
+                                <div class = "testimonial">
+                                <p>"I no longer have to worry about accidental exposure to allergens or feeling excluded
+                                    from social gatherings. Dining out has become a joyous experience again, filled with
+                                    delicious meals and memorable moments with friends and family. I'm truly grateful
+                                    for your product and the positive impact it has had on my life. Thank you for making
+                                    the world a more inclusive and allergy-aware place!"</p></div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class = "testimonial">
+                                <p>"This is reall annotingllergens or feeling excluded from social gatherings. Dining
+                                    out has become a joyous experience again, filled with delicious meals and memorable
+                                    moments with friends and family. I'm truly grateful for your product and the
+                                    positive impact it has had on my life. Thank you for making the world a more
+                                    inclusive and allergy-aware place!"</p></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class = "testimonial">
+                                <p>"I no VERY ANN have to worry about accidental exposure to allergens or feeling
+                                    excluded from social gatherings. Dining out has become a joyous experience again,
+                                    filled with delicious meals and memorable moments with friends and family. I'm truly
+                                    grateful for your product and the positive impact it has had on my life. Thank you
+                                    for making the world a more inclusive and allergy-aware place!"</p></div>
+                            </div>
+                            <!-- Add more carousel items with text content here -->
+                        </div>
+                    </div>
+                    </div>
+
+                    
+                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sl"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr"></span>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div class = "row fcta">
+            <div class = "col-lg-12 d-flex justify-content-center fcta-banner">
+                <div class = "row">
+                    <div class = "col-lg-6">
+                        <div class="prototype"><img src="imgs/photo4.png"
+                            alt="Image of an app on a cell phone" aria-label="Image of an app on a cell phone" class = "img-fluid p-0 phone">
+                    </div>
+                </div>
+
+
+
+                <div class = "col-lg-6 fcta-text">
+                <h3>Time to Enjoy</h3>
+                <h2>What are you waiting for?</h2>
+                <p> Join us on our journey to a world where everyone feels included, respected, and empowered to enjoy the simple pleasure of food</p>
+                <div class = "aboutBtn"><a href = "getting-started.html"><button type = "button" class = "tertiary-button">Secondary Action</button></a></div></div>
+
+
+                </div>
+            </div>
+    
+      </div>
+    
+    
+      <div class="footer" id = "footer-bottom">
+        
+        <footer class="row footer-content">
+          <div class = "container col-lg-12">
+            <div class = "row">
+          <div class="col-lg-4">
+            <h5>Section</h5>
+            <ul class="nav flex-column" role = "menu" aria-label = "Footer menu">
+              <li class="nav-item-foot"><a href="/grid.html" class="nav-link p-0 text-body-secondary"role = "menu item" aria-label = "Link"><p>Home</p></a></li>
+              <li class="nav-item-foot "><a href="/about.html" class="nav-link p-0 text-body-secondary"role = "menu item"  aria-label = "Link"><p>About Us</p></a></li>
+              <li class="nav-item-foot"><a href="/getting-started.html" class="nav-link p-0 text-body-secondary"role = "menu item"  aria-label = "Link"><p>Getting Started</p></a></li>
+              <li class="nav-item-foot"><a href="/testimonials.html" class="nav-link p-0 text-body-secondary"role = "menu item"aria-label = "Link" ><p>Testimonials</p></a></li>
+              <li class="nav-item-foot"><a href="/contact.html" class="nav-link p-0 text-body-secondary"role = "menu item"aria-label = "Link"><p>Contact Us</p></a></li>
+            </ul>
+          </div>
+          <div class = "col-lg-4 mb-6 col-sm-0 col-md-0"></div>
+          <div class="col-lg-4 mb-3 mt-3">
+            <a href="/grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role = "Footer icon" aria-label = "Logo">
+              <img src="imgs/EatWellLogoResized.png"><use xlink:href="#bootstrap"></use>
+            </a>
+    
+          </div>
+        </div>
+        </div>
+        </footer>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
