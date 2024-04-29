@@ -1311,20 +1311,28 @@ p {
 }
 .testimonials .test-text,
 .testimonials .about-text {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  text-align: center;
   color: white!important;
 }
 .testimonials button {
   margin-left: 0px!important;
 }
 .testimonials .card {
-  top: 20%;
+  top: 10%;
+  bottom: 5%;
   border: 2px solid #538C88;
 }
 .testimonials .card .blockquote {
   font-style: italic!important;
   font-size: 24px;
+  text-align: center!important;
+}
+#testimonial-container {
+  margin-bottom: 5%!important;
+}
+#testimonial-container .testimonials {
+  margin-bottom: 5%!important;
 }
 /* FCTA FULL */
 .fcta {

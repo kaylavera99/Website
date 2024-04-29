@@ -11,6 +11,16 @@
       <!-- Bootstrap CSS -->
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+        <!-- Bootstrap JS and jQuery (optional, for dropdowns) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script src = "javascript/mustache.js"></script>
+  <script src="javascript/index.js"></script>
+  <script src="javascript/mustacheFile.js"></script>
+
+  
 
 
       <!-- Font Awesome for icons -->
@@ -40,13 +50,13 @@
                       <a class="nav-link" href="about.html" aria-label = "Link" role = "menu item">About Us</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/getting-started.html"aria-label = "Link"role = "menu item">How it Works</a>
+                      <a class="nav-link" href="getting-started.html"aria-label = "Link"role = "menu item">How it Works</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/testimonials.html" aria-label = "Link"role = "menu item">Testimonials</a>
+                      <a class="nav-link" href="testimonials.html" aria-label = "Link"role = "menu item">Testimonials</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/contact.html" aria-label = "Link"role = "menu item">Contact </a>
+                      <a class="nav-link" href="contact.html" aria-label = "Link"role = "menu item">Contact </a>
                   </li>
                   <li class="nav-item navbar-nav-account">
                     <a class="nav-link account-link" href="/grid.html" aria-label = "Link"role = "menu item">Account</a>
@@ -73,8 +83,8 @@
         <h2 style = "color:white;">Inclusive, Present and Fun Eatting</h3>
         <h1 style = "color:white;">WeEat</h1>     
         <div class = "row banner-actions justify-content-center">
-          <a href = "getting-started.html"><button type = "button" class = "outline-button">Learn More</button></a>
-          <a href = "contact.html"><button type = "button" class = "outline-button">Learn More</button></a>
+          <a href = "getting-started.html"><button type = "button" class = "outline-button">Get Started</button></a>
+          <a href = "contact.html"><button type = "button" class = "outline-button">About Us</button></a>
     </div>
     </div>
 </div>
@@ -127,27 +137,41 @@
   <div class = "row">
     <div class = "col-lg-12">
         <div class = "row testimonials">
-            <div class = "col-lg-6 col-md-10 col-sm-10 d-flex about-text test-text">
+            <div class = "col-lg-12 col-md-10 col-sm-10 d-flex about-text test-text">
                 <h2>Testimonials Block</h2>
                 <p>Discover the stories of real people whose lives have been positively impacted by our product. From overcoming food allergies to finding their new favorite restaurants, our customers have experienced firsthand the transformative power of our solution</p>
-                <div class = "aboutBtn"><a href = "contact.html"><button type = "button" class = "outline-button">Read More</button></a></div>
             </div>
+          </div></div></div>
 
-            <div class = "col-lg-6 col-md-12  col-sm-12">
-                <div class="card">
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        
-                        <p> "I no longer have to worry about accidental exposure to allergens or feeling excluded from social gatherings. Dining out has become a joyous experience again, filled with delicious meals and memorable moments with friends and family.
-                          I'm truly grateful for your product and the positive impact it has had on my life. Thank you for making the world a more inclusive and allergy-aware place!"</p>
-                        <footer class="blockquote-footer">Kathleen G. <cite title="Source Title">Google</cite></footer>
+          
+<div class = "row testimonials" id = "testimonials-container" style = "justify-content:center; padding-bottom:5%;">
+            <div class = "col-12">
+              <script id = "testimonial-template" type = "text/html">
+                <div class="card w-80">
+                    <div class="card-body text-align-center">
+                      <blockquote class="blockquote mb-0 text-align-center">
+          
+                        <p> {{text}}</p>
+                        <footer class="blockquote-footer">{{author}}<cite title="Source Title">{{source}}</cite></footer>
+                        <div class = "aboutBtn"><a href = "contact.html"><button type = "button" class = "primary-button">Read More</button></a></div>
+
                       </blockquote>
                     </div>
                   </div>
+
+                  
+                </script>
+
+                
             </div>
+
+            <div class = "col-12">
+              <div class = "aboutBtn"><a href = "contact.html"><button type = "button" class = "primary-button">Read More</button></a></div>
+
+            </div>
+            <div class = "aboutBtn"><a href = "contact.html"><button type = "button" class = "primary-button">Read More</button></a></div>
+
     </div>
-  </div>
-</div>
 
   <div class = "row fcta">
         <div class = "col-lg-12 d-flex justify-content-center fcta-banner">
@@ -187,11 +211,7 @@
     </footer>
   </div>
 </div>
-  <!-- Bootstrap JS and jQuery (optional, for dropdowns) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="javascript/index.js"></script>
+
   
   </body>
   </html>

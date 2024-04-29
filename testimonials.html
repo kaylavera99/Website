@@ -19,6 +19,119 @@
 
     
 
-
+<style>
+    .test {
+        border:2px solid lightgrey;
+        padding-top:15%;
+        text-align:center;
+        padding-bottom:15%;
+    }
+</style>
     
 </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navContainer">
+        <!-- Logo (replace img src with your logo) -->
+        <a class="navbar-brand" href="grid.html"><img src="imgs/VerticalLogo.png" alt="Logo"></a>
+
+        <!-- Hamburger Menu Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-label="Account Icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse justify-content-center " aria-label="Navigation Bar"
+            id="navbarSupportedContent" role="navigation">
+            <ul class="navbar-nav" role="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" aria-label="Link" role="menu item">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="getting-started.html" aria-label="Link" role="menu item">How it
+                        Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html" aria-label="Link" role="menu item">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" aria-label="Link" role="menu item">Contact </a>
+                </li>
+                <li class="nav-item navbar-nav-account">
+                    <a class="nav-link account-link" href="grid.html" aria-label="Link" role="menu item">Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Account Button -->
+        <div class="collapse navbar-collapse justify-content-end account-bar" id="">
+            <ul class="navbar-nav account">
+                <li class="account-link">
+                    <a class="acclink" href="grid.html" aria-label="Account Icon" role="menu item"><img
+                            src="imgs/person-circle-outline.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+
+
+
+<div class = "row d-flex justify-content-center test">
+    <div class = "col-lg-12 ">
+        <h1>Page Coming Soon!</h1>
+        <div class = "aboutBtn"><a href = "grid.html"><button type = "button" class = "secondary-button">Home</button></a></div>
+
+
+    </div>
+</div>
+
+
+
+<div class="footer" id="footer-bottom">
+
+    <footer class="row footer-content">
+        <div class="container col-lg-12">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column" role="menu" aria-label="Footer menu">
+                        <li class="nav-item-foot"><a href="/grid.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Home</p>
+                            </a></li>
+                        <li class="nav-item-foot "><a href="/about.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>About Us</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/getting-started.html"
+                                class="nav-link p-0 text-body-secondary" role="menu item" aria-label="Link">
+                                <p>Getting Started</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/testimonials.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Testimonials</p>
+                            </a></li>
+                        <li class="nav-item-foot"><a href="/contact.html" class="nav-link p-0 text-body-secondary"
+                                role="menu item" aria-label="Link">
+                                <p>Contact Us</p>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-6 col-sm-0 col-md-0"></div>
+                <div class="col-lg-4 mb-3 mt-3">
+                    <a href="/grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
+                        aria-label="Logo">
+                        <img src="imgs/EatWellLogoResized.png">
+                        <use xlink:href="#bootstrap"></use>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
