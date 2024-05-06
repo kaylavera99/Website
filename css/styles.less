@@ -1,6 +1,7 @@
 @navbar-collapse-breakpoint: 992px;
 @primary-color: #538C88;
 @secondary-color: #9eab59;
+@secondary-color-tint: rgba(158,171,89,0.5);
 @tertiary-color: #FAF2AC;
 @accent-color: #c8725a;
 @warn-color: #F23030;
@@ -201,7 +202,7 @@ h1, h2, h3, a, p {
     padding-right: 0 !important;
     overflow: hidden !important;
     text-align: center !important;
-    background-image:url('Week-5\imgs\ProviderBlock.jpg')!important;
+    background-image:url('imgs\ProviderBlock.jpg')!important;
     background-size:cover;
     background-position:center;
 
@@ -318,6 +319,7 @@ h1, h2, h3, a, p {
     top: 10%;
     bottom:5%;
     border:2px solid @primary-color;
+    width:80%;
     .blockquote
     {
       font-style:italic!important;
@@ -346,7 +348,8 @@ h1, h2, h3, a, p {
   margin-right: 1%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: #eeeeeea8;
+  background-color: @secondary-color;
+  color:white;
   .fcta-banner {
     flex-direction: column;
     justify-content: center !important;

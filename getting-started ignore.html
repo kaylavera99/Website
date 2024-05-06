@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Responsive Navbar Example</title>
 
-<!-- Bootstrap CSS -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/inner.css">
@@ -13,31 +13,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Bootstrap JS and jQuery (optional, for dropdowns) -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  
-    
 
     <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-    
-
-<style>
-    .test {
-        border:2px solid lightgrey;
-        padding-top:15%;
-        text-align:center;
-        padding-bottom:15%;
-    }
-</style>
-    
 </head>
-<body>
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid" id="navContainer">
         <!-- Logo (replace img src with your logo) -->
@@ -85,53 +71,65 @@
 
 </nav>
 
-
-<div class = "test-page contianer-fluid">
-
-<div class="row banner-row justify-content-center test-banner">
-    <h2 style="color:white;">Testimonials</h2>
-    <p style = "color:white; text-align:center;">Hear What Our Users Have to Say!</p>
-</div>
-
-<div id="testimonials-container" class="col-12 bordered full pt-1 full-page">
-    
-
-<script id="testimonial-template" type="x-tmpl-mustache">
-    <div class="row d-flex bordered bottom full-page" style = "justify-content:center!important; align-content:center; border-bottom:1px solid rgba(211,211,211,.5);">
-        <div class="col-lg-1 bordered" style="width: 206px; ">
-            <div class="row d-flex flex-direction-color align-items-center">
-                <div class="col-lg-12 color" style="height: 200px;"><img class = "img-fluid" src ="{{pathauthor}}" style = "width:100px; border-radius:100px; height:100px; overflow:hidden; object-fit:cover;"></div>
-                <div class="col-lg-12 color2">{{author}}</div>
-            </div>
-        </div>
-        <div class="col-lg-8 bordered" style="width: 1648px;">{{text}}</div>
-        <div class="col-lg-1 bordered" style="width: 20px;"><img src ="{{pathsource}}" style = "max-width:50px;"></div>
-    </div>
-</script>
-</div>
-    
-<div class = "row fcta" style = "padding-top:0!important; padding-bottom:0!important;">
-    <div class = "col-lg-12 d-flex justify-content-center fcta-banner" style = "padding-top:0!important; padding-bottom:0!important;">
-        <div class = "row">
-            <div class = "col-lg-6">
-                <div class="prototype"><img src="imgs/photo4.png"
-                    alt="Image of an app on a cell phone" aria-label="Image of an app on a cell phone" class = "img-fluid p-0 phone">
+<body class="getStarted">
+    <div class="container-fluid start-page">
+        <div class="row banner-row justify-content-center"
+            style="background-image:url('imgs/pittsburgh-eats-2-2.jpg'); background-size:cover; background-position:center;">
+            <div class="col-lg-12 banner-content" style="background-color:rgba(0,0,0,0.6);">
+                <h2 style="color:white;">How it Works</h2>
             </div>
         </div>
 
 
 
-        <div class = "col-lg-6 fcta-text" >
-        <h3>Time to Enjoy</h3>
-        <h2>What are you waiting for?</h2>
-        <p> Join us on our journey to a world where everyone feels included, respected, and empowered to enjoy the simple pleasure of food</p>
-        <div class = "aboutBtn"><a href = "contact.html"><button type = "button" class = "tertiary-button">Contact Us</button></a></div></div>
 
 
+
+        <div class = "row cards pt-4">
+            <div class = "col-lg-12">
+                <h1>Getting Started with WeEat</h1>
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-lg-4">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top" src = "imgs/redone.png">
+                            <div class = "card-body">
+                                <h3>Step 1</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-lg-4">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top" src = "imgs/redone2.png">
+                            <div class = "card-body">
+                                <h3>Step 2</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-lg-4">
+                        <div class = "card" style = "width:auto;">
+                            <img class = "card-img-top" src = "imgs/redone3.png">
+                            <div class = "card-body">
+                                <h2>Step 3</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    
+
+            </div>
         </div>
+
+
     </div>
 
-</div>
+
+
+
+</body>
+
+
+
 
 <div class="footer" id="footer-bottom">
 
@@ -141,23 +139,23 @@
                 <div class="col-lg-4">
                     <h5>Section</h5>
                     <ul class="nav flex-column" role="menu" aria-label="Footer menu">
-                        <li class="nav-item-foot"><a href="grid.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="/grid.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Home</p>
                             </a></li>
-                        <li class="nav-item-foot "><a href="about.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot "><a href="/about.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>About Us</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="getting-started.html"
+                        <li class="nav-item-foot"><a href="/getting-started.html"
                                 class="nav-link p-0 text-body-secondary" role="menu item" aria-label="Link">
                                 <p>Getting Started</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="testimonials.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="/testimonials.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Testimonials</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="contact.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="/contact.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Contact Us</p>
                             </a></li>
@@ -165,9 +163,9 @@
                 </div>
                 <div class="col-lg-4 mb-6 col-sm-0 col-md-0"></div>
                 <div class="col-lg-4 mb-3 mt-3">
-                    <a href="grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
+                    <a href="/grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
                         aria-label="Logo">
-                        <img src="imgs/LogoLight.png">
+                        <img src="imgs/EatWellLogoResized.png">
                         <use xlink:href="#bootstrap"></use>
                     </a>
 
@@ -175,10 +173,5 @@
             </div>
         </div>
     </footer>
-
-    <script src = "javascript/mustache.js"></script>
-    <script src="javascript/mustacheFile.js"></script>
-    <script src="javascript/index.js"></script>
 </div>
 </body>
-</html>

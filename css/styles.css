@@ -1251,7 +1251,7 @@ p {
   padding-right: 0 !important;
   overflow: hidden !important;
   text-align: center !important;
-  background-image: url('Week-5\imgs\ProviderBlock.jpg') !important;
+  background-image: url('imgs\ProviderBlock.jpg') !important;
   background-size: cover;
   background-position: center;
 }
@@ -1322,6 +1322,7 @@ p {
   top: 10%;
   bottom: 5%;
   border: 2px solid #538C88;
+  width: 80%;
 }
 .testimonials .card .blockquote {
   font-style: italic!important;
@@ -1340,7 +1341,8 @@ p {
   margin-right: 1%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: #eeeeeea8;
+  background-color: #9eab59;
+  color: white;
 }
 .fcta .fcta-banner {
   flex-direction: column;

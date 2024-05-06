@@ -1251,7 +1251,7 @@ p {
   padding-right: 0 !important;
   overflow: hidden !important;
   text-align: center !important;
-  background-image: url('Week-5\imgs\ProviderBlock.jpg') !important;
+  background-image: url('imgs\ProviderBlock.jpg') !important;
   background-size: cover;
   background-position: center;
 }
@@ -1322,6 +1322,7 @@ p {
   top: 10%;
   bottom: 5%;
   border: 2px solid #538C88;
+  width: 80%;
 }
 .testimonials .card .blockquote {
   font-style: italic!important;
@@ -1340,7 +1341,8 @@ p {
   margin-right: 1%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: #eeeeeea8;
+  background-color: #9eab59;
+  color: white;
 }
 .fcta .fcta-banner {
   flex-direction: column;
@@ -1505,6 +1507,9 @@ p {
     padding-top: 5% !important;
   }
 }
+.html {
+  overflow-x: hidden!important;
+}
 .about {
   overflow-x: hidden!important;
 }
@@ -1580,6 +1585,8 @@ p {
 .about .fcta {
   padding-top: 0;
   padding-bottom: 0;
+  color: #222222;
+  background-color: rgba(158, 171, 89, 0.5);
 }
 .about .fcta img {
   background-size: cover;
@@ -1591,6 +1598,9 @@ p {
 }
 .about .fcta .fcta-text {
   padding-top: 10%;
+}
+.start-page .container-fluid {
+  overflow-x: hidden!important;
 }
 .start-page .first-block {
   padding-top: 3%;
@@ -1606,4 +1616,74 @@ p {
   width: 0;
   border: 0;
   text-align: center!important;
+}
+.start-page .fcta .col-lg-6 {
+  text-align: left!important;
+}
+.test-page {
+  overflow-x: hidden!important;
+}
+.test-page .test-banner {
+  display: flex;
+  background-color: #9eab59;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.test-page #testimonials-container .bordered {
+  height: 200px;
+  margin-bottom: 35px;
+  text-align: center!important;
+}
+.test-page #testimonials-container .bordered .color {
+  height: 100px!important;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.test-page #testimonials-container .bordered .color2 {
+  font-weight: 700;
+  font-style: italic;
+  color: #538C88;
+  font-size: 20px;
+}
+.test-page #testimonials-container .bordered .col-lg-1 {
+  height: 200px;
+  align-content: center;
+}
+.test-page #testimonials-container .bordered .col-lg-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.test-page #testimonials-container .bottom {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+}
+.test-page .fcta {
+  border-top: 2px solid #538C88;
+}
+.test-page .fcta .fcta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-page {
+  background-color: rgba(158, 171, 89, 0.5);
+}
+.contact-page .about-banner-content {
+  height: 200px;
+  text-align: center;
+}
+.contact-page .about-banner-content h2 {
+  padding-top: 5%;
+}
+.contact-page .form-block {
+  margin-top: 40px;
+  padding-top: 40px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(50, 54, 64, 0.7);
+  width: 70%;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }

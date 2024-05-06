@@ -7,10 +7,17 @@
 
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/inner.css"> 
+    <script src="javascript/index.js"></script>
 
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Your custom JavaScript -->
+     <!-- Bootstrap JS and jQuery (optional, for dropdowns) -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
     <!-- Font Awesome for icons -->
@@ -27,6 +34,8 @@
         padding-bottom:15%;
     }
 </style>
+
+
     
 </head>
 <body>
@@ -77,17 +86,124 @@
 
 </nav>
 
+<body class = "contact-page">
+<div class="container-fluid ">
+
+    <div class="row contact-banner justify-content-center"
+    style="background-image:url('imgs/pittsburgh-eats-2-2.jpg'); background-size:cover; background-position:center;">
+    <div class="col-lg-12 about-banner-content" style="background-color:rgba(0,0,0,0.6);">
+        <h2 style="color:white;">Contact Us</h2>
+    </div>
 
 
+</div>
+<div class = " container-fluid">
 
-<div class = "row d-flex justify-content-center test">
-    <div class = "col-lg-12 ">
-        <h1>Page Coming Soon!</h1>
-        <div class = "aboutBtn"><a href = "grid.html"><button type = "button" class = "secondary-button">Home</button></a></div>
-
-
+<div class="row justify-content-sm-center flex-wrap form-block offset-2">      
+    <div class="col-lg-4 col-md-12 col-sm-8">
+      <div class="mb-3">
+          <label for="fname" class="form-label">First Name:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+      </div>
+    </div>
+  <div class="col-lg-4 col-md-12 col-sm-8">
+      <label for="lname" class="form-label">Last Name:</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+  </div>
+  <div class="col-lg-5 col-md-12 col-sm-8">
+    <label for="lname" class="form-label">Email:</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="col-lg-3 col-md-12 col-sm-8">
+    <label for="lname" class="form-label">Phone Number:</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="(123) 456-7890">
+  </div> 
+  <div class="col-lg-5 col-md-12 col-sm-8">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">City</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="City">
+    </div>
+  </div>
+    
+  <div class="col-lg-3 col-md-12 col-sm-8">  
+    <label for="stateSelect" class="form-label">State:</label>
+      <select class="custom-select" aria-label="Default select example">
+        <option selected=""></option>
+        <option value="0">Alabama</option>
+        <option value="1">Alaska</option>
+        <option value="2">Arizona</option>
+        <option value="3">Arkanas</option>
+        <option value="4">California</option>
+        <option value="5">Colorado</option>
+        <option value="6">Connecticut</option>
+        <option value="7">District of Columbia</option>
+        <option value="8">Delaware</option>
+        <option value="9">Florida</option>
+        <option value="10">Georgia</option>
+        <option value="11">Hawaii</option>
+        <option value="12">Idaho</option>
+        <option value="13">Illinois</option>
+        <option value="14">Indiana</option>
+        <option value="15">Iowa</option>
+        <option value="16">Kansas</option>
+        <option value="17">Kentucky</option>
+        <option value="18">Louisiana</option>
+        <option value="19">Maine</option>
+        <option value="20">Maryland</option>
+        <option value="21">Massachusetts</option>
+        <option value="22">Michigan</option>
+        <option value="23">Minnesota</option>
+        <option value="24">Mississippi</option>
+        <option value="25">Missouri</option>
+        <option value="26">Montana</option>
+        <option value="27">Nebraska</option>
+        <option value="28">Nevada</option>
+        <option value="29">New Hampshire</option>
+        <option value="30">New Jersey</option>
+        <option value="31">New Mexico</option>
+        <option value="32">New York</option>
+        <option value="33">North Carolina</option>
+        <option value="34">North Dakota</option>
+        <option value="35">Ohio</option>
+        <option value="36">Oklahoma</option>
+        <option value="37">Oregon</option>
+        <option value="38">Pennsylvania</option>
+        <option value="49">Puerto Rico</option>
+        <option value="40">Rhode Island</option>
+        <option value="41">South Carolina</option>
+        <option value="42">South Dakota</option>
+        <option value="43">Tennessee</option>
+        <option value="44">Texas</option>
+        <option value="45">Utah</option>
+        <option value="46">Vermont</option>
+        <option value="47">Virginia</option>
+        <option value="48">Washington</option>
+        <option value="49">West Virginia</option>
+        <option value="50">Wisconsin</option>
+        <option value="51">Wyoming</option>
+      </select> 
+  </div>
+    <div class="col-lg-8 col-md-12 col-sm-8">
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Do you want to subscribe to our newsletter?
+      </label>
+    </div>
+    <div class="d-grid gap-2 d-sm-flex mt-4 justify-content-sm-center">
+      <button id = "submitButton"  type="button" class="primary-button btn-lg px-4 gap-3">Submit</button>
+    </div>
     </div>
 </div>
+
+
+
+</div>
+
 
 
 
@@ -99,23 +215,23 @@
                 <div class="col-lg-4">
                     <h5>Section</h5>
                     <ul class="nav flex-column" role="menu" aria-label="Footer menu">
-                        <li class="nav-item-foot"><a href="/grid.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="grid.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Home</p>
                             </a></li>
-                        <li class="nav-item-foot "><a href="/about.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot "><a href="about.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>About Us</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="/getting-started.html"
+                        <li class="nav-item-foot"><a href="getting-started.html"
                                 class="nav-link p-0 text-body-secondary" role="menu item" aria-label="Link">
                                 <p>Getting Started</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="/testimonials.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="testimonials.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Testimonials</p>
                             </a></li>
-                        <li class="nav-item-foot"><a href="/contact.html" class="nav-link p-0 text-body-secondary"
+                        <li class="nav-item-foot"><a href="contact.html" class="nav-link p-0 text-body-secondary"
                                 role="menu item" aria-label="Link">
                                 <p>Contact Us</p>
                             </a></li>
@@ -123,9 +239,9 @@
                 </div>
                 <div class="col-lg-4 mb-6 col-sm-0 col-md-0"></div>
                 <div class="col-lg-4 mb-3 mt-3">
-                    <a href="/grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
+                    <a href="grid.html" class="d-flex mb-3 link-body-emphasis footer-brand" role="Footer icon"
                         aria-label="Logo">
-                        <img src="imgs/EatWellLogoResized.png">
+                        <img src="imgs/LogoLight.png">
                         <use xlink:href="#bootstrap"></use>
                     </a>
 
@@ -133,5 +249,17 @@
             </div>
         </div>
     </footer>
+    <script>
+        var submitButton = document.getElementById("submitButton");
+        
+        // Add click event listener to the submit button
+        submitButton.addEventListener("click", function() {
+            // Display a pop-up message
+            alert("Submitted");
+        
+            // Redirect to the home page (replace "home.html" with the actual home page URL)
+            window.location.href = "grid.html";
+        });
+        </script>
 </body>
 </html>

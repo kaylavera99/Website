@@ -1,7 +1,9 @@
 @import url("styles.less");
 
 
-
+.html {
+    overflow-x:hidden!important;
+}
 
 .about {
     overflow-x:hidden!important;
@@ -124,6 +126,9 @@
     .fcta-text {
         padding-top:10%;
     }
+
+    color:@p-color;
+    background-color:@secondary-color-tint;
     
    }
 
@@ -133,10 +138,16 @@
 
 
 .start-page {
+    .container-fluid {
+        overflow-x:hidden!important;
+
+    }
+
 
     .first-block {
         padding-top:3%;
         padding-bottom:3%;
+        
 
     }
 
@@ -155,4 +166,114 @@
     }
 
 
+    .fcta {
+        .col-lg-6 {
+            text-align:left!important;
+        }
+    }
+
+
 }
+
+
+.test-page {
+    overflow-x:hidden!important;
+
+    .test-banner {
+        display:flex;
+        background-color:@secondary-color;
+        height:200px;
+        justify-content:center;
+        align-items: center;
+        flex-direction:column;
+        margin-bottom:35px;
+
+    }
+    #testimonials-container {
+
+
+
+        .bordered {
+            height:200px;
+            margin-bottom:35px;
+            text-align:center!important;
+
+            
+            
+    
+    
+            .color {
+                height:100px!important;
+                text-align:center;
+                margin-bottom:5px;
+            }
+    
+    
+            .color2 {
+                font-weight:700;
+                font-style:italic;
+                color:@primary-color;
+                font-size:20px;
+            }
+        }
+    
+        .bordered .col-lg-1 {
+            height:200px;
+            align-content:center;
+        }
+
+        .bordered .col-lg-8 {
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+        }
+
+
+        .bottom {
+            border-bottom:1px solid rgba(211,211,211,.5);
+        }
+    
+        
+    }
+
+
+    .fcta {
+
+        border-top:2px solid @primary-color;
+        .fcta-text {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
+.contact-page {
+    background-color:@secondary-color-tint;
+
+    .about-banner-content {
+        height:200px;
+        text-align:center;
+
+        h2 {
+            padding-top:5%;
+        }
+    }
+
+
+    .form-block {
+        margin-top:40px;
+        padding-top:40px;
+        background-color:white;
+        box-shadow: 0px 4px 4px rgba(50,54,64,0.7);
+        width:70%;
+        padding-bottom:40px;
+        margin-bottom:40px;
+    }
+
+
+ 
+   }
